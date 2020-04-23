@@ -232,7 +232,7 @@ EXPORT void CALL GetKeys( int Control, BUTTONS *Keys )
 #endif
     *Keys = controller[Control].buttons;
 
-    controller[Control].buttons.Value = 0;
+    //controller[Control].buttons.Value = 0;
 }
 
 /******************************************************************
